@@ -1,11 +1,11 @@
-
-import { wheatherApp } from './index.js';
-
-function wheatherApp() {
+import React from 'react';
+import './Components/index.css';
+function App() {
   return (
-    <div className="wheatherApp">
-      <wheatherApp/>
-    </div>
-  )
-};   
-export default wheatherApp;
+    <>
+      <Components/>
+    </>
+  );
+}
+
+export default App;
